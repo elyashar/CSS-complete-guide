@@ -3,6 +3,7 @@
     "vite": "^5.2.2"
   },
   "scripts": {
-    "dev": "vite Basics_of_CSS"
+    "dev": "vite Basics_of_CSS",
+    "dev2": "vite Basics_practice"
   }
 }
