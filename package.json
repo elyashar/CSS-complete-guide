@@ -4,6 +4,7 @@
   },
   "scripts": {
     "dev": "vite Basics_of_CSS",
-    "dev2": "vite Basics_practice"
+    "dev2": "vite Basics_practice",
+    "dev3": "vite Basics_practice2"
   }
 }
