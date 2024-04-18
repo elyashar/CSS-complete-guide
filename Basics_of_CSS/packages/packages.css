@@ -1,11 +1,11 @@
 @font-face {
     font-family: "AnonymousPro";
-    src: url("anonymousPro-Regular.ttf");
+    src: url("anonymousPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "AnonymousPro";
-    src: url("anonymousPro-Bold.ttf");
+    src: url("anonymousPro-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
@@ -65,9 +65,10 @@ main {
     font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
-    font-family: "AnonymousPro", sans-serif;
-    font-weight: 700;
-    /* font-style: italic; */
+    /* font-family: "AnonymousPro", sans-serif; */
+    /* font-weight: 700; */
+    font-size: 1.2rem;
+    /* font-style font-variant font-weight font-size/line-height font-family */
 }
 
 .clearfix {
