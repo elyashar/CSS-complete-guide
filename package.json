@@ -8,6 +8,7 @@
     "dev3": "vite Basics_practice2",
     "dev4": "vite Classes_combined_selectors",
     "dev5": "vite Positioning_elements",
-    "dev6": "vite Flexbox"
+    "dev6": "vite Flexbox",
+    "dev7": "vite Grid"
   }
 }
