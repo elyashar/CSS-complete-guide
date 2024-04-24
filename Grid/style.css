@@ -8,29 +8,36 @@ body {
     height: 100%;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 4.5rem auto 4.5rem;
+    grid-template-areas: "hd hd"
+        "side main"
+        "ft ft";
 }
 
 header {
-    background: blue;
+    background: rgb(62, 62, 243);
     color: white;
-    grid-column: 1 / 3;
+    /* grid-column: 1 / 3; */
+    grid-area: hd;
 }
 
 main {
     background: red;
     color: white;
-    grid-column: 2 / 3;
+    /* grid-column: 2 / 3; */
+    grid-area: main;
 }
 
 aside {
     background: green;
     color: white;
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    /* grid-column: 1 / 2;
+    grid-row: 2 / 3; */
+    grid-area: side;
 }
 
 footer {
     background: purple;
     color: white;
-    grid-column: 1 / 3;
+    /* grid-column: 1 / 3; */
+    grid-area: ft;
 }
