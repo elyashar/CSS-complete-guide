@@ -4,7 +4,7 @@
     height: 800px;
     width: 800px;
     /* grid-template-columns: 200px 5rem 20% auto; */
-    grid-template-columns: repeat(4, 20%%);
+    grid-template-columns: repeat(4, 20%);
     grid-template-rows: 5rem minmax(10px, 20rem) 100px;
     /* grid-row-gap: 10px;
     grid-column-gap: 20px; */
