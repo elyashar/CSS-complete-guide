@@ -9,6 +9,7 @@
     "dev4": "vite Classes_combined_selectors",
     "dev5": "vite Positioning_elements",
     "dev6": "vite Flexbox",
-    "dev7": "vite Grid"
+    "dev7": "vite Grid",
+    "dev8": "vite CSS_transforms"
   }
 }
