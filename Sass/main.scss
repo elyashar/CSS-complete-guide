@@ -12,14 +12,14 @@
 @mixin media-min-width($width) {
   @media (min-width: $width) {
     @content;
- }
+  }
 }
 
 html {
   font-size: 94.75%;
 
   @include media-min-width(40rem) {
-  font-size: 125%;
+    font-size: 125%;
   }
 }
 
@@ -30,8 +30,8 @@ body {
 
 .container {
   @include display-flex();
-    flex: {
-    direction: colummn;
+  flex: {
+    direction: column;
     wrap: nowrap;
   }
   align-items: center;
@@ -40,7 +40,7 @@ body {
 }
 
 .sass-section {
-  border: border-default;
+  border: $border-default;
   background: lighten(map-get($colors, main), 72%);
   padding: $size-default * 2;
   text-align: center;
@@ -48,28 +48,28 @@ body {
   box-sizing: border-box;
   @include media-min-width(40rem) {
     width: 30rem;
- }
+  }
 }
 
 .sass-introduction {
   @extend .sass-section;
-  box-shadow: $size-tiny $size-tiny $size-tiny / 2 #ccc;
+  box-shadow: $size-tiny $size-tiny calc($size-tiny / 2) #ccc;
 
   p {
-    margin: 0; 
+    margin: 0;
   }
 }
 
 .sass-details {
   @extend .sass-section;
-  margin: $size-default * 2 0;
+  margin: calc($size-default * 2) 0;
 }
-
+// gdf
 .section-header {
-  border-bottom: $size-tiny / 4 solid map-get($colors, main);
+  border-bottom: calc($size-tiny / 4) solid map-get($colors, main);
 
   h1 {
-    margin: 0 0 $size-defaultem 0;
+    margin: 0 0 $size-default 0;
   }
 }
 
@@ -92,13 +92,11 @@ body {
     padding: $size-tiny;
     border: $border-default;
 
-  &:hover,
-  &:active {
-  color: white;
-  background: map-get($colors, secondary);
-  border-color: map-get($colors, secondary);
+    &:hover,
+    &:active {
+      color: white;
+      background: map-get($colors, secondary);
+      border-color: map-get($colors, secondary);
+    }
   }
- }
 }
-
-
