@@ -13,6 +13,7 @@
     "dev7": "vite Grid",
     "dev8": "vite CSS_transforms",
     "dev9": "vite Sass",
+    "dev10": "vite Project",
     "sassy": "sass --watch Sass/main.scss Sass/output.css",
     "sassy-build": "vite build ./Sass --outDir=./build"
   }
