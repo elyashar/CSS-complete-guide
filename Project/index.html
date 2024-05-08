@@ -4,21 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div>ElyaShar</div>
-      <div>About me</div>
-      <div>Projects</div>
-      <div>Contact</div>
-    </header>
-    <h1>Hello</h1>
-    <p>Here is who i am and what i do</p>
-    <footer>
-      <div>2024 by ElyaShar</div>
-      <div>Call 1234567890</div>
-      <div>2Write info@mysite.com</div>
-      <div>Follow</div>
-    </footer>
+    <div class="container">
+      <header class="main-header">
+        <div class="main_item">ElyaShar</div>
+        <nav>
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#">About me</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Projects</a>
+            </li>
+            <li class="main-nav__item main-nav__item--cta">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <p>Flexbox &rarr;</p>
+        <p>Grid &rarr;</p>
+      </main>
+      <footer class="main-footer">
+        <div class="main-footer__item">&copy; 2024 by ElyaShar</div>
+        <nav>
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#">Social</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
